@@ -1,0 +1,849 @@
+[
+  {
+    "id": "0",
+    "title": "뮤지컬 〈종의 기원〉",
+    "location": "동덕여자대학교 공연예술센터 코튼홀",
+    "period": "2024.12.29 ~2025.03.23",
+    "age": "중학생이상 관람가",
+    "playTime": "95분",
+    "interest": "472",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail01/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail01/cast01.gif",
+        "name": "유승현",
+        "role": "한유진1"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast02.gif",
+        "name": "기세중",
+        "role": "한유진1"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast03.gif",
+        "name": "김이후",
+        "role": "한유진1"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast04.gif",
+        "name": "백동현",
+        "role": "한유진1"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast05.gif",
+        "name": "박규원",
+        "role": "한유진2"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast06.gif",
+        "name": "김려원",
+        "role": "한유진2"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast07.gif",
+        "name": "윤승우",
+        "role": "한유진2"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast08.gif",
+        "name": "박상혁",
+        "role": "한유진2"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast09.gif",
+        "name": "노희찬",
+        "role": "임정민"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast10.gif",
+        "name": "박선영",
+        "role": "김해진"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast11.gif",
+        "name": "장보람",
+        "role": "김해진"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast12.gif",
+        "name": "박상선",
+        "role": "김해진"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast13.gif",
+        "name": "장이주",
+        "role": "김지원/김혜원"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast14.gif",
+        "name": "강하나",
+        "role": "김지원/김혜원"
+      },
+      {
+        "img": "img/sub-reservation-img/detail01/cast15.gif",
+        "name": "류비",
+        "role": "김지원/김혜원"
+      }
+    ],
+    "castInfo": [
+      "img/sub-reservation-img/detail01/castInfo01.jpg",
+      "img/sub-reservation-img/detail01/castInfo02.jpg"
+    ],
+    "noticeArr": [
+      "img/sub-reservation-img/detail01/notice01.jpg",
+      "img/sub-reservation-img/detail01/notice02.jpg",
+      "img/sub-reservation-img/detail01/notice03.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간: 전일17시(월~토 관람 시)까지/전일 11시(일요일 관람 시)까지 <br/><br/> 화, 목 20시 | 수, 금 16시, 20시 | 토 15시, 19시 | 일, 공휴일 14시, 18시"
+    ]
+  },
+  {
+    "id": "1",
+    "title": "뮤지컬 〈드라이플라워〉",
+    "location": "예스24아트원 2관(구 아트원씨어터)",
+    "period": "2024.09.24 ~2024.12.08",
+    "playTime": "115분",
+    "age": "만 7세이상",
+    "interest": "408",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail02/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail02/cast01.gif",
+        "name": "황두현",
+        "role": "박지석"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast02.gif",
+        "name": "이동수",
+        "role": "박지석"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast03.gif",
+        "name": "류동휘",
+        "role": "박지석"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast04.gif",
+        "name": "조용휘",
+        "role": "박지석"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast05.gif",
+        "name": "이한솔",
+        "role": "오준혁"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast06.gif",
+        "name": "최반석",
+        "role": "오준혁"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast07.gif",
+        "name": "박주혁",
+        "role": "오준혁"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast08.gif",
+        "name": "이종석",
+        "role": "정성호"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast09.gif",
+        "name": "한승윤",
+        "role": "정성호"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast10.gif",
+        "name": "박준형",
+        "role": "정성호"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast11.gif",
+        "name": "이주순",
+        "role": "임정민"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast12.gif",
+        "name": "김방언",
+        "role": "임정민"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast13.gif",
+        "name": "신은총",
+        "role": "임정민"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast14.gif",
+        "name": "영오",
+        "role": "이유석"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast15.gif",
+        "name": "한상훈",
+        "role": "이유석"
+      },
+      {
+        "img": "img/sub-reservation-img/detail02/cast16.gif",
+        "name": "조모세",
+        "role": "이유석"
+      }
+    ],
+    "castInfo": [
+      "img/sub-reservation-img/detail02/castInfo01.jpg",
+      "img/sub-reservation-img/detail02/castInfo02.jpg"
+    ],
+    "noticeArr": [
+      "img/sub-reservation-img/detail02/notice01.jpg",
+      "img/sub-reservation-img/detail02/notice02.jpg",
+      "img/sub-reservation-img/detail02/notice03.jpg",
+      "img/sub-reservation-img/detail02/notice04.jpg",
+      "img/sub-reservation-img/detail02/notice05.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 4시간 전까지 <br/> 화목금 20시 / 수 16시 20시 / 토 15시 19시 / 일 14시 18시 (월요일 쉼 / 단, 9/25(수) 16시 공연 없음) <br/> * 10월 3일(목) 14시, 18시 / 10월 9일(수) 14시, 18시"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "하이어 라이플 콜렉션 라이브 2024 메리 앤드 해피",
+    "location": "복합 문화공간 몽향",
+    "period": "2024.12.25",
+    "playTime": "45분",
+    "age": "12세이상",
+    "interest": "6",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail03/poster.gif",
+    "castArr": [],
+    "castInfo": [
+      "img/sub-reservation-img/detail03/castInfo01.jpg",
+      "img/sub-reservation-img/detail03/castInfo02.jpg"
+    ],
+    "noticeArr": [
+      "img/sub-reservation-img/detail03/notice01.jpg",
+      "img/sub-reservation-img/detail03/notice02.jpg"
+    ],
+    "playTimeInfo": [
+      "1회차 : 몬스터 팜 크루 쇼_We Merry & Happy (Show : 16:00~16:45/Event : 16:50~17:30) <br/><br/> 2회차 : 지베뉴의 나홀로지베뉴 (Show only : 17:00~17:45) <br/><br/> 3회차 : 와가온의 와가마마 크리스마스 (Show : 18:00~18:45/Event : 19:00~21:00) <br/><br/> 4회차 : 모비딕의 Hard & Merry (Show : 19:00~19:45/Event : 20:00~Night All)"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "［피크닉#9] 뮤지컬 〈테일러〉",
+    "location": "대학로 TOM(티오엠) 1관",
+    "period": "2024.12.18 ~2024.12.20",
+    "playTime": "100분",
+    "age": "초등학생이상 관람가",
+    "interest": "59",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail04/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail04/cast01.gif",
+        "name": "한상훈",
+        "role": "해리"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast02.gif",
+        "name": "장윤석",
+        "role": "해리"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast03.gif",
+        "name": "이석준",
+        "role": "해리"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast04.gif",
+        "name": "윤재호",
+        "role": "애덤"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast05.gif",
+        "name": "박상혁",
+        "role": "애덤"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast06.gif",
+        "name": "강병훈",
+        "role": "애덤"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast07.gif",
+        "name": "김이담",
+        "role": "노아"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast08.gif",
+        "name": "심수호",
+        "role": "노아"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast09.gif",
+        "name": "박상준",
+        "role": "노아"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast10.gif",
+        "name": "최수현",
+        "role": "미첼"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast11.gif",
+        "name": "박소은",
+        "role": "미첼"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast12.gif",
+        "name": "조디아나",
+        "role": "미첼"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast13.gif",
+        "name": "고철순",
+        "role": "에른스트"
+      },
+      {
+        "img": "img/sub-reservation-img/detail04/cast14.gif",
+        "name": "이민규",
+        "role": "에른스트"
+      }
+    ],
+    "castInfo": [
+      "img/sub-reservation-img/detail04/castInfo01.jpg",
+      "img/sub-reservation-img/detail04/castInfo02.jpg"
+    ],
+    "noticeArr": [
+      "img/sub-reservation-img/detail04/notice01.jpg",
+      "img/sub-reservation-img/detail04/notice02.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 3시간 전까지 <br/>12/18(수) 16시 <br/>12/19(목) 20시<br/>12/20(금) 20시"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "2024 소수빈 연말 콘서트 〈사랑의 소동〉",
+    "location": "블루스퀘어 마스터카드홀",
+    "period": "2024.12.27 ~2024.12.29",
+    "playTime": "120분",
+    "age": "만 8세이상",
+    "interest": "726",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail05/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail05/cast01.gif",
+        "name": "소수빈",
+        "role": ""
+      }
+    ],
+    "castInfo": ["img/sub-reservation-img/detail05/castInfo01.gif"],
+    "noticeArr": ["img/sub-reservation-img/detail05/notice01.jpg"],
+    "playTimeInfo": [
+      "예매가능시간 : 관람일 11시까지 <br/>12월 27일(금) 오후8시 / 28일(토) 오후6시 / 29일(일) 오후5시<br/><br/><br/><br/>여러분들께서 보내주신 뜨거운 성원에 감사드립니다.<br/>더 많은 팬 분들과 함께하고자 1회차 공연을 추가합니다.<br/><br/>※ 추가 회차 공연: 2024년 12월 27일(금) 오후 8시<br/>※ 추가 티켓 오픈: 2024년 11월 18일(월) 오후 8시<br/>(오픈 준비를 위해 11월 18일 오후 6~8시까지 예매가 잠시 중단됩니다."
+    ]
+  },
+  {
+    "id": "5",
+    "title": "뮤지컬 〈여신님이 보고 계셔〉",
+    "location": "인터파크 유니플렉스 1관",
+    "period": "2024.11.26 ~2025.03.03",
+    "playTime": "120분",
+    "age": "10세 이상 관람가",
+    "interest": "1490",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail06/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail06/cast01.gif",
+        "name": "이동하",
+        "role": "한영범"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast02.gif",
+        "name": "강기둥",
+        "role": "한영범"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast03.gif",
+        "name": "김지철",
+        "role": "한영범"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast04.gif",
+        "name": "신우",
+        "role": "류순호"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast05.gif",
+        "name": "박준휘",
+        "role": "류순호"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast06.gif",
+        "name": "류동휘",
+        "role": "류순호"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast07.gif",
+        "name": "류찬열",
+        "role": "류순호"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast08.gif",
+        "name": "차용학",
+        "role": "이창섭"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast09.gif",
+        "name": "안재영",
+        "role": "이창섭"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast10.gif",
+        "name": "안창용",
+        "role": "이창섭"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast11.gif",
+        "name": "김찬종",
+        "role": "신석구"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast12.gif",
+        "name": "장두환",
+        "role": "신석구"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast13.gif",
+        "name": "조용휘",
+        "role": "신석구"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast14.gif",
+        "name": "장민수",
+        "role": "조동현"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast15.gif",
+        "name": "김방언",
+        "role": "조동현"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast16.gif",
+        "name": "정세윤",
+        "role": "조동현"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast17.gif",
+        "name": "문성일",
+        "role": "변주화"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast18.gif",
+        "name": "최민우",
+        "role": "변주화"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast19.gif",
+        "name": "김도하",
+        "role": "변주화"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast20.gif",
+        "name": "한보라",
+        "role": "여신님"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast21.gif",
+        "name": "강지혜",
+        "role": "여신님"
+      },
+      {
+        "img": "img/sub-reservation-img/detail06/cast22.gif",
+        "name": "주다온",
+        "role": "여신님"
+      }
+    ],
+    "castInfo": [
+      "img/sub-reservation-img/detail06/castInfo01.jpg",
+      "img/sub-reservation-img/detail06/castInfo02.jpg"
+    ],
+    "noticeArr": [
+      "img/sub-reservation-img/detail06/notice01.jpg",
+      "img/sub-reservation-img/detail06/notice02.jpg",
+      "img/sub-reservation-img/detail06/notice03.jpg",
+      "img/sub-reservation-img/detail06/notice04.jpg",
+      "img/sub-reservation-img/detail06/notice05.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 3시간 전까지 <br/>화, 목 8시 / 수, 금 4시, 8시 / 토, 일, 공휴일 2시, 6시 (월 공연없음)<br/><br/><br/>*12/28(토) 14시 회차 공연은 전관 행사로 인해 사전 마감되었습니다."
+    ]
+  },
+  {
+    "id": "6",
+    "title": "뮤지컬 〈사랑의 하츄핑〉",
+    "location": "올림픽공원 우리금융아트홀",
+    "period": "2025.01.08 ~2025.02.16",
+    "playTime": "65분",
+    "age": "24개월이상 관람가능",
+    "interest": "56",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail07/poster.jpg",
+    "castArr": [],
+    "castInfo": ["img/sub-reservation-img/detail07/castInfo01.jpg"],
+    "noticeArr": [
+      "img/sub-reservation-img/detail07/notice01.jpg",
+      "img/sub-reservation-img/detail07/notice02.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간 : 전일17시(월~토 관람 시)까지/전일 11시(일요일 관람 시)까지 <br/>화,수,목,금,일 11시, 14시 / 토 11시, 14시, 16시 30분 (월 공연없음)<br/>단, 설연휴 당일 1월29일(수) 14시, 16시30분<br/><br/><br/><br/>1층 2열~4열은 무대를 가까이서 볼 수 있지만, 앞 좌석과의 단차가 없는 평지로 앞 좌석 관객으로 인해 시야가 방해 될 수 있습니다.<br/>당일 이로 인한 좌석 변경은 불가하오니 예매시 참고해주시기 바랍니다."
+    ]
+  },
+  {
+    "id": "7",
+    "title": "산울림 편지콘서트〈쇼팽, 블루노트〉",
+    "location": "소극장 산울림",
+    "period": "2024.12.13 ~2025.01.05",
+    "playTime": "95분",
+    "age": "만 7세이상",
+    "interest": "43",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail08/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail08/cast01.gif",
+        "name": "류영빈",
+        "role": "쇼팽"
+      },
+      {
+        "img": "img/sub-reservation-img/detail08/cast02.gif",
+        "name": "이다해",
+        "role": "조르주 상드"
+      },
+      {
+        "img": "img/sub-reservation-img/detail08/cast03.gif",
+        "name": "쿠프카 피오트르",
+        "role": "피아노"
+      },
+      {
+        "img": "img/sub-reservation-img/detail08/cast04.gif",
+        "name": "히로타 슌지",
+        "role": "피아노"
+      }
+    ],
+    "castInfo": [
+      "img/sub-reservation-img/detail08/castInfo01.jpg",
+      "img/sub-reservation-img/detail08/castInfo02.jpg"
+    ],
+    "noticeArr": [
+      "img/sub-reservation-img/detail08/notice01.jpg",
+      "img/sub-reservation-img/detail08/notice02.jpg",
+      "img/sub-reservation-img/detail08/notice03.jpg",
+      "img/sub-reservation-img/detail08/notice04.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 3시간 전까지 <br/>화, 목 8시 / 수, 금 4시, 8시 / 토, 일, 공휴일 2시, 6시 (월 공연없음)<br/><br/><br/>*12/28(토) 14시 회차 공연은 전관 행사로 인해 사전 마감되었습니다."
+    ]
+  },
+  {
+    "id": "8",
+    "title": "임영웅 리사이틀 [RE:CITAL]",
+    "location": "고척스카이돔",
+    "period": "2024.12.27 ~2025.01.04",
+    "playTime": "150분",
+    "age": "만 7세이상",
+    "interest": "10237",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail09/poster.jpg",
+    "castArr": [],
+    "castInfo": [],
+    "noticeArr": ["img/sub-reservation-img/detail09/notice01.jpg"],
+    "playTimeInfo": [
+      "2024년 12월 27일(금) 오후 7시 30분 / 12월 28일(토) 오후 5시 / 12월 29일(일) 오후 5시<br/>2025년 01월 02일(목) 오후 7시 30분 / 01월 03일(금) 오후 7시 30분 / 01월 04일(토) 오후 5시<br/><br/><br/><br/>※ 인터파크 국내 예매페이지의 경우, 제3자 무단 사용 방지를 위하여 본인 인증된 계정에 한하여 예매 가능합니다. 공연 예매 전 반드시 본인 인증을 완료해주시기 바랍니다.<br/>예매 페이지 내, 보라색 [인증 후 예매하기] 버튼을 누른 뒤 본인 인증 절차를 사전에 완료하시기 바랍니다. 이미 본인 인증이 완료된 아이디는 [인증 후 예매하기] 버튼이 활성화되어 있지 않으니, 추가 인증을 하지 않아도 됩니다.<br/><br/><br/>※ 공연 예매 전 반드시 팝업 차단을 해제해 주세요.<br/><br/><br/>※ 티켓 예매 시 공연 안내사항에 동의한 것으로 간주하며, 본 내용은 상황에 따라 추가/변경될 수 있습니다. 공연 관람에 지장이나 불이익을 받지 않도록 관람 전 반드시 공연 안내사항을 재확인 바랍니다.<br/><br/><br/>※ 본 공연은 안심예매 서비스가 적용됩니다. 예매에 참고하여 주시기 바랍니다.<br/>- 안심예매란? http://ticket.interpark.com/service/serviceGuide.asp <br/><br/><br/>※ 본 공연은 예매대기서비스와 동일좌석 재예매서비스 이용이 제한됩니다.<br/><br/><br/>※쾌적한 예매 환경과 무분별한 부정 예매 시도 방지를 위해 1개의 계정으로는 1개의 대기열 순번만 받을 수 있습니다.<br/>여러 디바이스나 브라우저를 이용해 동시에 대기열을 생성할 경우, 기존 대기열은 종료되오니 예매 시 참고 부탁드립니다. (FAQ 바로가기 : https://url.kr/cie98v )<br/><br/><br/>※원활한 예매를 위해 인터파크페이, 아이포인트(I-point), NOL포인트 결제수단이 제한됩니다.<br/>(그 외 신용카드, 카카오페이 등 결제수단 사용 가능)<br/><br/><br/><br/>[티켓 배송 안내]<br/>- 공연 당일 혼잡을 막기 위해 예매 초기에는 일괄 배송 방식으로 운영됩니다. (일괄배송일: 12월 9일(월)부터 순차 배송)<br/>- 일괄 배송 티켓은 2024년 11월 27일(수) 09:00AM(KST)까지 예매 완료된 건부터 순차적으로 배송될 예정이며, 일괄배송일 이후 예매하시는 분들은 현장수령만 가능합니다.<br/>- 일괄 배송 티켓은 2024년 11월 28일(목) 09:00AM(KST)까지 배송지 변경이 가능하며, 티켓 구매 전 수령정보(배송 주소, 수령인, 연락처)가 정확한지 다시 한번 확인하여 주시기 바랍니다. 배송 후에는 수령정보의 변경이 어려우며, 반송 후 재배송은 불가합니다. (현장수령만 가능)<br/>- 디지털 포토티켓 제작으로 인해 2024년 11월 28일(목) 09:00AM(KST)이후 일괄 배송 예매 건의 취소 요청은 2024년 12월 9일(월) 12:00PM(KST)까지 고객센터(1544-1555) 및 임영웅 콘서트 전용 ARS 고객센터(1660-1646)를 통해서만 가능하며 이후에는 배송비 환불이 불가한 점 유의하시기 바랍니다.<br/><br/>[무통장 입금 관련 안내]<br/>- 본 공연은 원활한 예매 진행을 위해 예매 시 무통장 입금 결제가 제한됩니다.<br/>티켓 불법 양도, 암표 근절 및 티켓을 구입하고 싶어하시는 관객분들에게 피해가 되지 않도록 조치를 취하는 것이니, 이 점 양해 부탁드립니다.<br/><br/>[휠체어석 예매 안내]<br/>- 휠체어석(장애인석) 예매는 11/21(목) 오전 9시부터 인터파크 티켓 고객센터(1544-1555) 또는 임영웅 콘서트 전용 고객센터(1660-1646)를 통해 전화 예매로만 가능합니다. (전화 예매 가능 시간: 평일 9시~18시)<br/>- 공연 당일 예매자 본인의 실물 신분증과 장애인 등록증(또는 복지카드) 확인이 이루어지며, 미지참 시 입장이 불가합니다. (복지카드를 소지하고 계시더라도 휠체어를 이용하지 않는 관객은 휠체어석 이용이 불가합니다.)<br/>- 휠체어석 예매 티켓은 현장 수령만 가능하며, 공연 당일 예매자 본인(휠체어석 이용자)이 직접 티켓을 수령해야 합니다. (대리수령 및 양도불가)"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "2024 Apink 7th Concert 〈PINK CHRISTMAS〉",
+    "location": "KBS아레나",
+    "period": "2024.12.21 ~2024.12.22",
+    "playTime": "120분",
+    "age": "만 8세이상",
+    "interest": "412",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail10/poster.jpg",
+    "castArr": [],
+    "castInfo": [],
+    "noticeArr": ["img/sub-reservation-img/detail10/notice01.jpg"],
+    "playTimeInfo": [
+      "[팬클럽 선예매 안내]<br/>- 팬클럽 선예매 인증 기간: 2024년 11월 18일(월) 14:00 ~ 11월 21일(목) 23:59<br/>- 팬클럽 선예매: 2024년 11월 21일(목) 20:00 ~ 23:59<br/>- 팬클럽 선예매 매수 제한: 회차당 1인 1매<br/>- 결제 방식: 카드+무통장입금<br/>- 무통장 입금 기한: 예매당일 23:59까지<br/>- 팬클럽 선예매는 [Apink 공식 팬클럽 ‘PANDA 8기’] 회원분들에 한 해 예매하실 수 있습니다.<br/><br/><br/>[일반 예매 안내]<br/>- 일반 예매: 2024년 11월 22일(금) 20:00<br/>- 결제 방식: 카드+무통장입금<br/>- 무통장 입금 기한: 예매당일 23:59까지<br/>- 일반 예매 매수 제한: 회차당 1인 4매<br/>- 일반 예매는 팬클럽 선예매 진행 후 잔여석에 한 해 진행되며, 팬클럽 선예매 시 매진될 경우 일반 예매 오픈 시에 예매 가능한 좌석이 없을 수 있는 점 참고 부탁드립니다.<br/>- 팬클럽 선예매를 통해 티켓을 예매하신 회원들도 일반 예매 시 구매 매수 제한 내에서 추가로 예매 가능합니다.<br/><br/><br/>[할인정보]<br/>장애인 중증 할인 : 본인 포함 동반 1인 포함 20% 할인<br/>장애인 경증 할인 : 본인만 20% 할인<br/>국가유공자 할인 : 본인만 20% 할인<br/>* 증빙 미 지참 시 차액 지불"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "러셀 피터스 스탠드업 라이브 코미디쇼",
+    "location": "명화라이브홀",
+    "period": "2025.04.05",
+    "playTime": "120분",
+    "age": "만 12세이상",
+    "interest": "33",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail11/poster.gif",
+    "castArr": [],
+    "castInfo": ["img/sub-reservation-img/detail11/castInfo01.jpg"],
+    "noticeArr": ["img/sub-reservation-img/detail11/notice01.jpg"],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 2시간 전까지/전일 11시(일요일 관람 시)까지 <br/>- 공연일시: 2025.04.05 (토) 오후 7시"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "2024-25 린 전국투어 콘서트 “Queen of Serenade” - 부산",
+    "location": "부산문화회관 대극장",
+    "period": "2025.01.04",
+    "playTime": "120분",
+    "age": "7세 이상 관람가능",
+    "interest": "36",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail12/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail12/cast01.gif",
+        "name": "린(LYn)",
+        "role": ""
+      }
+    ],
+    "castInfo": ["img/sub-reservation-img/detail12/castInfo01.gif"],
+    "noticeArr": [
+      "img/sub-reservation-img/detail12/notice01.jpg",
+      "img/sub-reservation-img/detail12/notice02.jpg",
+      "img/sub-reservation-img/detail12/notice03.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 2시간 전까지<br/>토요일 오후 1시,6시<br/><br/><br/>[공지사항]<br/>※ 매수제한: 회차당 1인 4매<br/>※ 일괄배송: 2024년 12월 13일(금)<br/>※ 공연당일 혼잡함을 방지하기 위해 초기 예매분은 일괄배송 방식으로만 운영합니다.<br/>※ 티켓 분실, 파손 등 어떠한 경우에도 재발권 및 입장이 불가능하오니, 티켓보관에 유의해주시기 바랍니다.<br/>※ 공연장 주변으로는 교통 혼잡 지역이오니, 가급적 대중교통 이용바랍니다.<br/>※ 휠체어석은 11월 7일(목) 오전 10시부터 부산공연 기획사(1566-5490)를 통해 예매 하실 수 있습니다.<br/><br/><br/>[할인정보]<br/>- 부산문화회관 정기회원 10%할인(1인4매)<br/>- 장애인(1~3급(중증)/동반1인) 20%할인<br/>- 장애인(4~6급(경증)/본인만) 20%할인<br/>- 국가유공자(본인만) 20%할인<br/><br/>※ 모든 할인받은 티켓은 현장수령만 가능하며, 할인증빙서류(회원카드, 복지카드, 국가유공자증) 미지참 혹은 할인 대상자 본인이 아닌 경우 할인 받은 금액 지불 후 티켓 수령 가능합니다.<br/>※ 할인된 금액으로 예매를 하셔야 하며 정가로 예매된 티켓은 현장에서 할인 받으실 수 없으니 예매 시 유의 바랍니다.<br/>※ 모든 할인은 타 할인과 중복적용 불가합니다."
+    ]
+  },
+  {
+    "id": "12",
+    "title": "연극 〈뜨거운 여름〉 : 공연배달서비스 간다 20주년 퍼레이드",
+    "location": "인터파크 서경스퀘어 스콘 1관",
+    "period": "2024.12.10 ~2025.02.16",
+    "playTime": "105분",
+    "age": "중학생이상 관람가",
+    "interest": "226",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail13/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail13/cast01.jpg",
+        "name": "오의식",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast02.gif",
+        "name": "김리현",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast03.gif",
+        "name": "유선호",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast04.gif",
+        "name": "홍지희",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast05.gif",
+        "name": "오주언",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast06.gif",
+        "name": "심새인",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast07.gif",
+        "name": "노정현",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast08.gif",
+        "name": "정선기",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast09.gif",
+        "name": "장수범",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast10.gif",
+        "name": "차형도",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast11.gif",
+        "name": "이원민",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast12.gif",
+        "name": "조원석",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast13.gif",
+        "name": "임태섭",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast14.gif",
+        "name": "조윤정",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast15.gif",
+        "name": "정유경",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast16.gif",
+        "name": "도희원",
+        "role": "재희"
+      },
+      {
+        "img": "img/sub-reservation-img/detail13/cast17.gif",
+        "name": "권슬아",
+        "role": "재희"
+      }
+    ],
+    "castInfo": [
+      "img/sub-reservation-img/detail13/castInfo01.jpg",
+      "img/sub-reservation-img/detail13/castInfo02.jpg",
+      "img/sub-reservation-img/detail13/castInfo03.jpg"
+    ],
+    "noticeArr": [
+      "img/sub-reservation-img/detail13/notice01.jpg",
+      "img/sub-reservation-img/detail13/notice02.jpg",
+      "img/sub-reservation-img/detail13/notice03.jpg",
+      "img/sub-reservation-img/detail13/notice04.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 3시간 전까지<br/>화-금 8시 | 주말 및 공휴일 2시, 6시 (월 쉼)"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "연극 〈테베랜드〉",
+    "location": "충무아트센터 중극장 블랙",
+    "period": "2024.11.20 ~2025.02.09",
+    "playTime": "165분(인터미션 15분 포함)",
+    "age": "17세 이상 관람가",
+    "interest": "1166",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail14/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail14/cast01.jpg",
+        "name": "이석준",
+        "role": "S"
+      },
+      {
+        "img": "img/sub-reservation-img/detail14/cast02.gif",
+        "name": "정희태",
+        "role": "S"
+      },
+      {
+        "img": "img/sub-reservation-img/detail14/cast03.gif",
+        "name": "길은성",
+        "role": "S"
+      },
+      {
+        "img": "img/sub-reservation-img/detail14/cast04.gif",
+        "name": "김남희",
+        "role": "S"
+      },
+      {
+        "img": "img/sub-reservation-img/detail14/cast05.gif",
+        "name": "이주승",
+        "role": "마르틴＆페데리코"
+      },
+      {
+        "img": "img/sub-reservation-img/detail14/cast06.gif",
+        "name": "손우현",
+        "role": "마르틴＆페데리코"
+      },
+      {
+        "img": "img/sub-reservation-img/detail14/cast07.gif",
+        "name": "정택운",
+        "role": "마르틴＆페데리코"
+      },
+      {
+        "img": "img/sub-reservation-img/detail14/cast08.gif",
+        "name": "강승호",
+        "role": "마르틴＆페데리코"
+      }
+    ],
+    "castInfo": [
+      "img/sub-reservation-img/detail14/castInfo01.jpg",
+      "img/sub-reservation-img/detail14/castInfo02.jpg",
+      "img/sub-reservation-img/detail14/castInfo03.jpg"
+    ],
+    "noticeArr": [
+      "img/sub-reservation-img/detail14/notice01.jpg",
+      "img/sub-reservation-img/detail14/notice02.jpg",
+      "img/sub-reservation-img/detail14/notice03.jpg",
+      "img/sub-reservation-img/detail14/notice04.jpg"
+    ],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 3시간 전까지<br/>화, 수, 목 7시 30분 / 금 3시, 7시 30분 / 토 2시, 6시30분 / 일, 공휴일 3시 (공휴일 일자별 상이, 월 공연없음)"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "두번째달 단독 콘서트 [내 인생의 BGM]",
+    "location": "성수아트홀",
+    "period": "2024.12.24 ~2024.12.25",
+    "playTime": "120분",
+    "age": "8세이상 관람가능",
+    "interest": "10",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail15/poster.gif",
+    "castArr": [],
+    "castInfo": [],
+    "noticeArr": ["img/sub-reservation-img/detail15/notice01.jpg"],
+    "playTimeInfo": [
+      "예매가능시간 : 전일17시(월~토 관람 시)까지/전일 11시(일요일 관람 시)까지<br/>- 12월 24일(화) 오후 7시<br/>- 12월 25일(수) 오후 4시"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "2am 콘서트 〈2am is coming to town〉 - 이천",
+    "location": "이천아트홀 대공연장",
+    "period": "2025.01.11",
+    "playTime": "120분",
+    "age": "초등학생이상 관람가",
+    "interest": "26",
+    "interested": false,
+    "poster": "img/sub-reservation-img/detail16/poster.gif",
+    "castArr": [
+      {
+        "img": "img/sub-reservation-img/detail16/cast01.gif",
+        "name": "2am",
+        "role": ""
+      }
+    ],
+    "castInfo": [],
+    "noticeArr": ["img/sub-reservation-img/detail16/notice01.jpg"],
+    "playTimeInfo": [
+      "예매가능시간 : 관람 3시간 전까지<br/>화, 수, 목 7시 30분 / 금 3시, 7시 30분 / 토 2시, 6시30분 / 일, 공휴일 3시 (공휴일 일자별 상이, 월 공연없음)"
+    ]
+  }
+]

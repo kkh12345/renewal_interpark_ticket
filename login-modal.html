@@ -1,0 +1,91 @@
+<div class="login-modal">
+  <div class="login-modal-container">
+    <div class="responsive-close-btn">
+      <a href="#none"
+        ><img src="img/header-img/res-menu-close-btn.svg" alt="닫기"
+      /></a>
+    </div>
+    <section class="login-area">
+      <div class="login-box">
+        <div class="login-box-top">
+          <h5>로그인</h5>
+          <a href="#none" class="basic-text">다른 로그인 방법</a>
+        </div>
+        <form action="">
+          <div class="radio-wrap">
+            <input
+              id="easy-login"
+              type="radio"
+              name="login-method"
+              value="간편로그인"
+              checked
+            /><label for="easy-login">간편로그인</label>
+            <input
+              id="app-login"
+              type="radio"
+              name="login-method"
+              value="인터파크티켓앱"
+            /><label for="app-login">인터파크티켓 앱</label>
+          </div>
+          <div class="login-id-wrap">
+            <input id="login-id" type="text" placeholder="아이디 : abc123" />
+          </div>
+          <div class="login-pw-wrap">
+            <input
+              id="login-pw"
+              type="password"
+              placeholder="비밀번호 : abc123"
+            />
+          </div>
+          <input class="login-btn" type="button" value="로그인" />
+          <!-- app-login -->
+          <div class="app-login-box">
+            <p class="desc">카메라 실행 후 QR코드를 스캔해주세요.</p>
+            <p id="remaining-time">남은시간 : 05분 00초</p>
+            <div class="qrcode-wrap">
+              <img src="img/main-img/qrcode.png" alt="인터파크 티켓 앱" />
+              <span
+                >또는
+                <b>9524413</b>
+              </span>
+            </div>
+          </div>
+          <div class="sign-up-link-wrap">
+            <a href="#none" class="sign-up-link">회원가입 </a>
+          </div>
+        </form>
+        <div class="login-success-box">
+          <div class="login-success-box-top">
+            <h5>마이페이지</h5>
+            <a href="#none" class="basic-text logout-btn"><u>로그아웃</u></a>
+          </div>
+          <div class="user-info">
+            <p>
+              <span class="user-name body-text">정연희</span>님은 현재 <br /><u
+                >WELCOME</u
+              >
+              회원입니다.
+            </p>
+            <div class="btn-wrap">
+              <button>등급별혜택</button>
+              <button>회원정보수정</button>
+            </div>
+          </div>
+          <div class="point-info">
+            <div class="i-point">
+              <span class=""><b>I-Point</b></span>
+              <span><b class="num">0</b> P</span>
+            </div>
+            <div class="nol-point">
+              <b>NOL포인트</b>
+              <a href="#none">혜택받기 </a>
+            </div>
+          </div>
+          <div class="view-more-info-wrap">
+            <a href="#none" class="view-more-info">회원정보</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/sub-reservation-modal.css" />
+  </head>
+
+  <body>
+    <div class="modal-container">
+      <!-- 모달 헤더 -->
+      <div class="modal-hdr">
+        <div class="imgWrap">
+          <img
+            src="img/sub-reservation-img/modal-logo.svg"
+            alt="인터파크티켓"
+          />
+        </div>
+      </div>
+      <!-- 단계 -->
+      <ul class="process">
+        <li class="body-text">날짜/회차선택</li>
+        <li class="body-text selected">등급/좌석선택</li>
+        <li class="body-text">권종/할인/매수선택</li>
+        <li class="body-text">배송선택/예매확인</li>
+        <li class="body-text">결제</li>
+      </ul>
+      <!-- 좌석선택 -->
+      <div class="select-seat-area">
+        <!-- left -->
+        <div class="select-seat-left">
+          <h5>
+            <span>뮤지컬 〈알라딘〉 한국 초연 (ALADDIN The Musical)</span>
+            <span>| 경희대학교 평화의 전당</span>
+          </h5>
+          <div class="select-date">
+            다른 관람일자 선택 : 일자
+            <select name="" id="" class="date-select">
+              <option value="">2024년 11월 27일(토)</option>
+            </select>
+            시간 :
+            <select name="" id="" class="time-select">
+              <option value="">17시 00분</option>
+            </select>
+          </div>
+          <div class="stage-area">
+            <div class="stage">
+              <img src="img/sub-reservation-img/stage-big.png" alt="stage" />
+              <div class="A-seat">
+                <h6>A</h6>
+              </div>
+              <div class="B-seat">
+                <h6>B</h6>
+              </div>
+              <div class="C-seat">
+                <h6>C</h6>
+              </div>
+              <div class="D-seat">
+                <h6>D</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="select-seat-right">
+          <div class="wait-box">
+            <span>원하는 좌석이 없다면?</span>
+            <a href="#none">예매대기하기</a>
+          </div>
+          <div class="select-shrink-box">
+            <img src="img/sub-reservation-img/stage-small.png" alt="stage" />
+          </div>
+          <div class="select-rating-area">
+            <h6>등급선택</h6>
+            <ul>
+              <li>
+                <span class="left"
+                  ><span class="vip-seat">VIP석</span
+                  ><span>160,000원</span></span
+                >
+                <div class="right"></div>
+              </li>
+              <li>
+                <span class="left"
+                  ><span class="r-seat">R석</span><span>130,000원</span></span
+                >
+                <div class="right"></div>
+              </li>
+              <li>
+                <span class="left"
+                  ><span class="s-seat">S석</span><span>100,000원</span></span
+                >
+                <div class="right"></div>
+              </li>
+              <li>
+                <span class="left"
+                  ><span class="a-seat">A석</span><span>70,000원</span></span
+                >
+                <div class="right"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="selected-seat-area">
+            <h6>선택좌석<button>좌석다시선택</button></h6>
+            <div class="selected-seat-box">
+              <h6>좌석등급 <span>좌석번호</span></h6>
+              <ul></ul>
+            </div>
+          </div>
+          <div class="select-finish-btnWrap">
+            <button>좌석선택완료</button>
+            <a href="#none">좌석선택시 유의사항</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script/sub-reservation-modal.js"></script>
+  </body>
+</html>

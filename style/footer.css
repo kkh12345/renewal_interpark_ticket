@@ -1,0 +1,346 @@
+/* responsive-inquiry */
+.inquiry-btnGroup {
+  display: none;
+  margin-bottom: 25px;
+}
+
+.inquiry-btnGroup>button {
+  width: calc(50% - 10px);
+  padding: 20px 0;
+  background-color: lightgray;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px;
+  border: none;
+}
+
+/* footer */
+
+.footer-include-responsive {
+  display: none;
+}
+
+.footer-include-responsive>footer,
+.footer-include-hall>footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-include-hall>footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-include-responsive>footer>div,
+.footer-include-hall>footer>div {
+  flex: 1;
+}
+
+.footer-include-responsive .footer-content01 {
+  display: none;
+}
+
+.footer-include-responsive .footer-content03>ul {
+  display: block;
+}
+
+.footer-include-responsive .footer-content03>ul>li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.footer h5 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.footer-content01 {
+  margin-bottom: 60px;
+}
+
+.footer-content01>h5+p {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.footer-content01>h5>a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content01>h5>a::after {
+  content: url(../img/footer-img/other-login-arrow.svg);
+}
+
+.footer-include-hall .footer-content01>h5>a::after {
+  display: none;
+}
+
+.footer-content02,
+.footer-content03,
+.footer-content04 {
+  margin-bottom: 35px;
+}
+
+.footer-content02 ul>li:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+.footer-content02 ul>li>span:nth-child(1) {
+  display: inline-block;
+  width: 56px;
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer-content02 ul>li>span:nth-child(2) {
+  font-weight: 100;
+  font-size: 14px;
+  font-family: 'Pretendard-Regular';
+}
+
+.footer-content03>ul {
+  display: grid;
+  row-gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    'li01 li02'
+    'li03 li04'
+    'li05 .'
+    'li06 .';
+}
+
+.li01 {
+  grid-area: li01;
+}
+
+.li02 {
+  grid-area: li02;
+}
+
+.li03 {
+  grid-area: li03;
+}
+
+.li04 {
+  grid-area: li04;
+}
+
+.li05 {
+  grid-area: li05;
+}
+
+.li06 {
+  grid-area: li06;
+}
+
+.footer-content03>ul>li>a {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gray);
+}
+
+.footer-content04 address {
+  font-style: normal;
+}
+
+.footer-content04 .copyright {
+  font-size: 10px;
+}
+
+.footer-logo {
+  width: 130px;
+  margin-top: 12px;
+}
+
+.footer-include-pc {
+  width: 100%;
+  margin-top: 300px;
+  padding-left: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.22s;
+  transition-timing-function: ease;
+}
+
+
+
+/* 공연장 푸터 */
+.footer-include-hall .footer-content03>ul {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    'li02'
+    'li04'
+    'li03'
+    'li05'
+    'li06';
+}
+
+.footer-include-hall .li01 {
+  display: none;
+}
+
+/* mediaQuery */
+@media screen and (max-width: 1200px) {
+  .footer-include-responsive {
+    display: block;
+  }
+
+  .footer-include-pc,
+  .footer-include-hall .footer-content01 {
+    display: none;
+  }
+
+  .footer-include-hall>footer>.footer-content01 {
+    display: none;
+  }
+
+  .footer-include-hall>footer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {
+
+  .footer-include-responsive>footer,
+  .footer-include-hall>footer {
+    flex-direction: column;
+  }
+
+  .footer-include-hall>footer {
+    width: 100%;
+    padding: 0 40px;
+
+  }
+
+  .hall-container .inquiry-btnGroup {
+    padding: 0 40px;
+  }
+
+  .footer-include-responsive .footer-content01,
+  .footer-include-hall .footer-content01 {
+    display: block;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .footer-include-responsive .footer-content01>h5>a::after,
+  .footer-include-hall .footer-content01>h5>a::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 27px;
+    background-image: url('../img/footer-img/other-login-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+  }
+
+  .footer-include-responsive .footer-content03,
+  .footer-include-hall .footer-content03 {
+    order: 1;
+  }
+
+
+
+  .footer-include-hall .footer h5 {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .footer-include-responsive .footer-content03>ul,
+  .footer-include-hall .footer-content03>ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+  }
+
+  .footer-include-responsive .footer-content02,
+  .footer-include-hall .footer-content02 {
+    order: 2;
+  }
+
+  .footer-include-responsive .footer-content02>ul,
+  .footer-include-hall .footer-content02>ul {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+
+  .footer-include-responsive .footer-content02 ul>li>span:nth-child(1),
+  .footer-include-hall .footer-content02 ul>li>span:nth-child(1) {
+    margin-right: 10px;
+  }
+
+  .footer-include-responsive .footer-content04,
+  .footer-include-hall .footer-content04 {
+    order: 3;
+  }
+
+  .footer-include-hall .footer-content04 {
+    margin-bottom: 80px
+  }
+
+
+  .footer-include-responsive .footer-content04 address,
+  .footer-include-responsive .footer-content04 .copyright,
+  .footer-include-hall .footer-content04 address,
+  .footer-include-hall .footer-content04 .copyright {
+    color: var(--gray);
+  }
+
+  .footer-include-responsive .footer-logo,
+  .footer-include-hall .footer-logo {
+    margin-top: 40px;
+  }
+
+  .inquiry-btnGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .footer-include-hall>footer,
+  .hall-container .inquiry-btnGroup {
+    padding: 0 20px;
+  }
+
+
+  .footer-include-hall .footer-content02>ul,
+  .footer-include-responsive .footer-content02>ul {
+    grid-template-columns: 1fr;
+  }
+
+  .inquiry-btnGroup>button {
+    width: calc(50% - 5px);
+    padding: 10px 0;
+    border-radius: var(--border-radius5);
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .footer-include-hall .footer-content01>h5+p,
+  .footer-include-responsive .footer-content01>h5+p {
+    padding-right: 50px;
+  }
+
+  .footer-include-hall .footer-content01>h5+p br,
+  .footer-include-responsive .footer-content01>h5+p br {
+    display: none;
+  }
+}

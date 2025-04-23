@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>인터파크 티켓</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/main-img/favicon.svg" />
+  <!-- swiperCDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style/reset.css" />
+  <link rel="stylesheet" href="style/header.css" />
+  <link rel="stylesheet" href="style/footer.css" />
+  <link rel="stylesheet" href="style/login-modal.css" />
+  <link rel="stylesheet" href="style/sub-reservation.css" />
+  <link rel="stylesheet" href="style/sub-reservation-response.css" />
+</head>
+
+<body>
+  <div class="login-modal-include"></div>
+  <!-- sub-reservation-popup -->
+  <div class="sub-reservation-popup">
+    <div class="sub-popup">
+      <h5 class="sub-popup-tit">예매 안내</h5>
+      <div class="sub-popup-content">
+        <span>
+          <b>◈ 예매자는 본 안내 페이지의 모든 내용을 숙지 및 동의한 것으로 간주합니다.</b>
+          관람 연령 / 티켓 수령 / 공연 관람 안내 미숙지로 인한 책임은 관람자 본인에게 있으며,
+          <em>예매 티켓의 관람 당일 취소 / 변경 / 환불은 불가</em>하오니 각별히 유의하시기 바랍니다.
+        </span>
+        <span>
+          <b>◈ 14세 이상 관람가 (2024년 기준 2011년 포함 이전 출생자 입장 가능)</b>
+          티켓 수령 및 객석 입장 시 관람 연령 확인을 위해 생년월일 확인이 가능한 증빙 서류(건강보험증, 여권, 주민등록등본 등)를 확인하고 있으며, 육안으로 나이 확인이 불가하오니 티켓 수령 시 미리
+          준비해 주시기 바랍니다.(생년월일이나 유효기간이 없는 학생증은 인정되지 않습니다.)
+        </span>
+        <span>
+          <b>◈ 증빙이 필요한 할인을 받은 내역이 있는 경우, 해당 증빙서류를 꼭 지참해 주시기 바랍니다.</b>
+          <em>(뮤지컬 ‘이프덴’ 지난 공연 유료 티켓, 학생증(생년월일 또는 유효기간 표기된 학생증만 유효), 복지카드, 유공자증 등)</em>
+          <br>
+          - 모든 할인은 공연 당일 관람자 기준으로 적용되며, 청소년/국가유공자/복지할인을 받으신 분들은 티켓 수령 시 할인 대상자가 직접 티켓 창구에 방문하셔서 할인 증빙을 해주셔야 합니다.<br>
+          - 증빙자료 미지참 또는 할인 대상자 본인 확인 불가 시, 현장에서 정가 대비 차액을 지불하셔야 합니다.
+          <b>(추후 차액 환불 불가)</b>
+          - 할인 권종 선택에 대한 책임은 관람자 본인에게 있습니다.
+        </span>
+        <span>
+          <em>◈ 공연 시작 후 지정된 시간 외에는 입장이 제한</em>되며, 공연 시작 후에는 다른 관객의 관람에 방해가 되지 않도록 <em>본인 예매좌석이 아닌 다른 좌석으로 안내될 수
+            있습니다.</em><br> 이후 인터미션 시간에 본인 좌석으로 착석 가능하며, <em>공연 도중 퇴장 시 재입장이 불가</em>합니다.
+        </span>
+        <span>
+          ◈ ◈ 공연장 주변이 매우 혼잡하고, 주차 공간이 협소하므로 가급적 대중교통을 이용해 주시기 바랍니다.<br> 주차장 입차 시 만차 및 차량 정체가 빈번하게 발생하여 공연 시작 전까지 공연장 입장이
+          어려울 수 있습니다.<br>
+          주차장 만차 또는 교통난으로 인해 당일 관람이 불가하거나 관람을 포기한 경우 예매 취소 및 환불, 변경이 불가합니다. 대중교통 이용을 적극 권장합니다.
+        </span>
+      </div>
+      <div class="sub-popup-bottom">
+        <p class="basic-text">공연 예매 안내를 반드시 확인하시기 바랍니다. 본 안내는 예매 시마다 표시됩니다.</p>
+        <img src="img/sub-reservation-img/closebtn.svg" alt="닫기" class="sub-popup-close-btn">
+      </div>
+    </div>
+  </div>
+  <div class="sub-reservation-container">
+    <div class="header-include header-include-reservation"></div>
+    <!-- reservation-main -->
+    <main class="reservation-main">
+      <div class="reservation-main-inner">
+        <div class="reservation-main-left">
+          <!-- play-info-area -->
+          <section class="play-info-area">
+            <div class="badge">
+              <span>안심예매</span><span>예매대기</span>
+            </div>
+            <h1></h1>
+            <div class="play-info-flex">
+              <div class="play-info-left">
+                <img src="" alt="" />
+                <div class="interest">
+                  <span class="heart"></span>관심<span class="num"></span>
+                </div>
+              </div>
+              <ul class="play-info-right">
+                <li class="location"><b>장소</b><span></span></li>
+                <li class="period"><b>공연기간</b><span></span></li>
+                <li class="time"><b>공연시간</b><span></span></li>
+                <li class="age"><b>관람연령</b><span></span></li>
+                <li class="price price-pc">
+                  <b>가격</b>
+                  <ul>
+                    <li><span>VIP석</span><b>160,000</b>원</li>
+                    <li><span>R석</span><b>130,000</b>원</li>
+                    <li><span>S석</span><b>100,000</b>원</li>
+                    <li><span>A석</span><b>70,000</b>원</li>
+                  </ul>
+                </li>
+                <li class="boon boon-pc">
+                  <b>혜택</b>
+                  <ul>
+                    <li>무이자할부</li>
+                    <li>
+                      <a href="#none"><img src="img/sub-reservation-img/nol.png" alt="NOL" />NOL 카드 쓸 때마다
+                        10% 적립</a>
+                    </li>
+                    <li>
+                      <a href="#none"><img src="img/sub-reservation-img/toping.png" alt="Toping" />가입하고
+                        중복할인 쿠폰받기</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="price price-responsive">
+              <b>가격</b>
+              <ul>
+                <li><span>VIP석</span><b>160,000</b>원</li>
+                <li><span>R석</span><b>130,000</b>원</li>
+                <li><span>S석</span><b>100,000</b>원</li>
+                <li><span>A석</span><b>70,000</b>원</li>
+              </ul>
+            </div>
+            <div class="boon boon-responsive">
+              <b>혜택</b>
+              <ul>
+                <li>무이자할부</li>
+                <li>
+                  <a href="#none"><img src="img/sub-reservation-img/nol.png" alt="NOL" />NOL 카드 쓸 때마다 10%
+                    적립</a>
+                </li>
+                <li>
+                  <a href="#none"><img src="img/sub-reservation-img/toping.png" alt="Toping" />가입하고 중복할인
+                    쿠폰받기</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- res-calender -->
+          <section class="res-calendar">
+            <div class="res-calendar-wrap">
+              <div>
+                <table class="res-calendar-container">
+                  <div class="body-text res-date">관람일</div>
+                  <div class="res-calendar-header">
+                    <button id="res-prev-month">
+                      <img src="img/sub-reservation-img/calendar-prev.svg" alt="이전" />
+                    </button>
+                    <div class="body-text" id="res-calendar-title">
+                      n년n월
+                    </div>
+                    <button id="res-next-month">
+                      <img src="img/sub-reservation-img/calendar-next.svg" alt="다음" />
+                    </button>
+                  </div>
+                  <thead>
+                    <tr>
+                      <th class="res-mon">일</th>
+                      <th>월</th>
+                      <th>화</th>
+                      <th>수</th>
+                      <th>목</th>
+                      <th>금</th>
+                      <th class="res-satur">토</th>
+                    </tr>
+                  </thead>
+                  <tbody id="res-calendar-body"></tbody>
+                  <div class="res-calendar-logo">
+                    <img src="img/sub-reservation-img/calendar-logo.svg" alt="달력 로고" />
+                  </div>
+                </table>
+              </div>
+              <!-- 출력 -->
+              <div id="res-selected-date">
+                <div class="res-round">회차</div>
+                <div class="body-text res-calender-time">1회 18:30</div>
+                <p>VIP석1 / R석 2 / S석 0 / A석 1</p>
+              </div>
+            </div>
+            <div class="res-reserve-btn">
+              <button class="res-reserve-btn-top">예매하기</button>
+            </div>
+          </section>
+          <section class="cast-info-area">
+            <h1><span>출연진</span><a href="#none">캐스팅 일정조회</a></h1>
+            <div class="castSwiper-wrapper">
+              <div class="swiper castSwiper">
+                <div class="swiper-wrapper">
+                  <!-- 슬라이드 삼입 -->
+                </div>
+              </div>
+              <div class="swiper-button-next cast-next"></div>
+              <div class="swiper-button-prev cast-prev"></div>
+            </div>
+          </section>
+          <!-- play-tap-area-->
+          <section class="play-tap-area">
+            <ul class="play-tap-menu">
+              <li data-index="0">상세정보</li>
+              <li data-index="1">캐스팅정보</li>
+              <li data-index="2">
+                기대평<span class="txt-ballon">event</span>
+              </li>
+
+              <li data-index="3">관람후기</li>
+            </ul>
+            <div class="play-tap-content-wrap">
+              <div class="play-tap-content play-tap-content01" data-index="0">
+                <!-- 상세정보 -->
+                <div class="txt">
+                  <h5>공연시간 정보</h5>
+                  <p>
+                    2024년 11월 05일(화) ~ 2025년 01월 26일(일) <br />
+                    화·목·금 20시 | 수 16시·20시 | 토 15시·19시 | 일·공휴일
+                    14시·18시
+                    <br />
+                    <br />
+                    * 11월 06일(수) 20시 * 12월 05일(목), 12월 12일(목) 16시,
+                    20시
+                    <br />
+                    <br />
+                    * 12월 04일(수), 12월 11일(수) 16시 공연없음
+                  </p>
+                </div>
+                <div class="imgWrap">
+                  <img src="img/sub-reservation-img/notice.png" alt="" />
+                </div>
+              </div>
+              <div class="play-tap-content play-tap-content02" data-index="1"></div>
+              <div class="play-tap-content play-tap-content03" data-index="2">
+                <!-- 기대평 -->
+                <div class="invite-box">
+                  <div class="invite-box-top">
+                    <div class="invite-box-badge"><span>초대EVENT</span></div>
+                    <div class="invite-box-txt">
+                      <p>기대평 초대 이벤트</p>
+                      <p>
+                        기대평을 남겨주세요! 정성껏 주신 분들 중 추첨을 통해
+                        혜택을 드립니다!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="invite-box-content-wrap">
+                    <ul class="invite-box-content01">
+                      <li>
+                        <span>· 이벤트기간</span><span>2024.10.30 - 2024.11.25</span>
+                      </li>
+                      <li>
+                        <span>· 당첨자발표</span><span>2024.11.29</span>
+                      </li>
+                      <li>
+                        <span>· 당첨자혜택</span><span>12월 06일(금) 19:30 S석 초대권 3명(1인 2매</span>
+                      </li>
+                    </ul>
+                    <ul class="invite-box-content02">
+                      <li>
+                        · 당첨자에 한해 개별 상세안내 예정, 경품
+                        변경/양도/재판매 등 절대 불가
+                      </li>
+                      <li>
+                        · 경품 제공에 필요한 필수정보 제공 미동의 시, 당첨이
+                        취소될 수 있음
+                      </li>
+                      <li>
+                        · 본 이벤트는 당사 운영정책에 따라 진행되며 내부사정에
+                        의해 별도 고지없이 변경될 수 있음
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="expectations">
+                  <h4 class="expectations-review-tit">
+                    <span class="left">기대평<span class="count">3</span></span>
+                  </h4>
+                  <p class="warn">
+                    <span>게시판 운영규정에 많지 않는 글은 사전 통보없이 삭제될
+                      수 있습니다.</span><a href="#none"><u>게시판 운영규정</u></a>
+                  </p>
+                  <div class="expectations-input-box">
+                    <textarea name="" id=""></textarea>
+                    <div class="register">
+                      <span class="letter-count"><b>0</b> / 1000</span><button class="body-text">등록</button>
+                    </div>
+                    <div class="placeholder">
+                      <span>기대평을 남겨보세요!</span>
+                    </div>
+                  </div>
+                  <ul class="expectations-record">
+                    <li>
+                      <span class="user-profile">
+                        <img src="img/sub-reservation-img/user-profile-img.png" alt="profile" />
+                        <span class="username">dh***</span>
+                      </span>
+                      <h6>딸들과 함께~</h6>
+                      <p>
+                        모처럼 딸들과 공연 데이트를 했어요. <br />중간중간
+                        신나는 노래와 감성 젖는 노래로 손이 아플정도로
+                        손뼉치며 흠뻑 빠져서 들었어요. 운동권 얘기로 맘아파
+                        눈물 훔치고, 마지막 눈물 흘리실때 르륵.... <br />
+                        커튼콜은 다함께 신나게 박수치며 너무 좋았습니다.
+                        <br />
+                        순간 어릴때로 간 느낌..예쁜거 없는 같은시대를 걸어온
+                        남편과도 함께 봤으면 좋겠다고 생각이 들었네요
+                      </p>
+                    </li>
+                    <li>
+                      <span class="user-profile">
+                        <img src="img/sub-reservation-img/user-profile-img.png" alt="profile" />
+                        <span class="username">dh***</span>
+                      </span>
+                      <h6>딸들과 함께~</h6>
+                      <p>
+                        모처럼 딸들과 공연 데이트를 했어요. <br />중간중간
+                        신나는 노래와 감성 젖는 노래로 손이 아플정도로
+                        손뼉치며 흠뻑 빠져서 들었어요. 운동권 얘기로 맘아파
+                        눈물 훔치고, 마지막 눈물 흘리실때 르륵.... <br />
+                        커튼콜은 다함께 신나게 박수치며 너무 좋았습니다.
+                        <br />
+                        순간 어릴때로 간 느낌..예쁜거 없는 같은시대를 걸어온
+                        남편과도 함께 봤으면 좋겠다고 생각이 들었네요
+                      </p>
+                    </li>
+                    <li>
+                      <span class="user-profile">
+                        <img src="img/sub-reservation-img/user-profile-img.png" alt="profile" />
+                        <span class="username">dh***</span>
+                      </span>
+                      <h6>딸들과 함께~</h6>
+                      <p>
+                        모처럼 딸들과 공연 데이트를 했어요. <br />중간중간
+                        신나는 노래와 감성 젖는 노래로 손이 아플정도로
+                        손뼉치며 흠뻑 빠져서 들었어요. 운동권 얘기로 맘아파
+                        눈물 훔치고, 마지막 눈물 흘리실때 르륵.... <br />
+                        커튼콜은 다함께 신나게 박수치며 너무 좋았습니다.
+                        <br />
+                        순간 어릴때로 간 느낌..예쁜거 없는 같은시대를 걸어온
+                        남편과도 함께 봤으면 좋겠다고 생각이 들었네요
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- 관람후기 -->
+              <div class="play-tap-content play-tap-content04" data-index="3">
+                <h4 class="play-review-tit">
+                  <span class="left">관람후기<span class="count">3</span></span>
+                  <div class="right">
+                    <span class="starGroup">
+                      <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                      <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                      <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                      <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                      <span class="star"><img src="img/sub-reservation-img/star-null.png" alt="star" /></span>
+                      <span class="num"><span>4</span> / 5</span>
+                    </span>
+                  </div>
+                </h4>
+                <p class="warn">
+                  <span>게시판 운영규정에 많지 않는 글은 사전 통보없이 삭제될 수
+                    있습니다.</span><a href="#none" class="body-text"><u>게시판 운영규정</u></a>
+                </p>
+                <div class="review-input-box">
+                  <textarea name="" id=""></textarea>
+                  <div class="register">
+                    <span class="letter-count"><b>0</b> / 1000</span><button class="body-text">등록</button>
+                  </div>
+                  <div class="placeholder">
+                    <span class="starGroup">
+                      <span class="star"><img src="img/sub-reservation-img/star-null.png" alt="star" /></span>
+                      <span class="star"><img src="img/sub-reservation-img/star-null.png" alt="star" /></span>
+                      <span class="star"><img src="img/sub-reservation-img/star-null.png" alt="star" /></span>
+                      <span class="star"><img src="img/sub-reservation-img/star-null.png" alt="star" /></span>
+                      <span class="star"><img src="img/sub-reservation-img/star-null.png" alt="star" /></span>
+                    </span>
+                    <span>관람후기를 남겨보세요!</span>
+                  </div>
+                </div>
+                <ul class="review-record">
+                  <li>
+                    <span class="user-profile">
+                      <img src="img/sub-reservation-img/user-profile-img.png" alt="" />
+                      <span class="username">dh***</span>
+                      <span class="starGroup">
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="count">5</span>
+                      </span>
+                    </span>
+                    <h6>딸들과 함께~</h6>
+                    <p>
+                      모처럼 딸들과 공연 데이트를 했어요. <br />중간중간
+                      신나는 노래와 감성 젖는 노래로 손이 아플정도로 손뼉치며
+                      흠뻑 빠져서 들었어요. 운동권 얘기로 맘아파 눈물 훔치고,
+                      마지막 눈물 흘리실때 르륵.... <br />
+                      커튼콜은 다함께 신나게 박수치며 너무 좋았습니다. <br />
+                      순간 어릴때로 간 느낌..예쁜거 없는 같은시대를 걸어온
+                      남편과도 함께 봤으면 좋겠다고 생각이 들었네요
+                    </p>
+                  </li>
+                  <li>
+                    <span class="user-profile">
+                      <img src="img/sub-reservation-img/user-profile-img.png" alt="" />
+                      <span class="username">dh***</span>
+                      <span class="starGroup">
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="star"><img src="img/sub-reservation-img/star-fill.svg" alt="star" /></span>
+                        <span class="count">5</span>
+                      </span>
+                    </span>
+                    <h6>딸들과 함께~</h6>
+                    <p>
+                      모처럼 딸들과 공연 데이트를 했어요. <br />중간중간
+                      신나는 노래와 감성 젖는 노래로 손이 아플정도로 손뼉치며
+                      흠뻑 빠져서 들었어요. 운동권 얘기로 맘아파 눈물 훔치고,
+                      마지막 눈물 흘리실때 르륵.... <br />
+                      커튼콜은 다함께 신나게 박수치며 너무 좋았습니다. <br />
+                      순간 어릴때로 간 느낌..예쁜거 없는 같은시대를 걸어온
+                      남편과도 함께 봤으면 좋겠다고 생각이 들었네요
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="reservation-main-right">
+          <section class="calendar">
+            <div class="calendar-wrap">
+              <div class="body-text date">관람일</div>
+              <!-- table 외부로 이동 -->
+              <div class="calendar-header">
+                <!-- table 외부로 이동 -->
+                <button id="prev-month">
+                  <img src="img/sub-reservation-img/calendar-prev.svg" alt="이전" />
+                </button>
+                <div class="body-text" id="calendar-title">n년n월</div>
+                <button id="next-month">
+                  <img src="img/sub-reservation-img/calendar-next.svg" alt="다음" />
+                </button>
+              </div>
+              <table class="calendar-container">
+                <thead>
+                  <tr>
+                    <th class="mon">일</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                    <th class="satur">토</th>
+                  </tr>
+                </thead>
+                <tbody id="calendar-body"></tbody>
+              </table>
+              <!-- 출력 -->
+              <div id="selected-date">
+                <div class="body-text round">회차</div>
+                <div class="body-text calender-time">1회 18:30</div>
+                <p>VIP석1 / R석 2 / S석 0 / A석 1</p>
+              </div>
+            </div>
+            <div class="reserve-btn">
+              <button class="reserve-btn-top">예매하기</button>
+              <button class="reserve-btn-bottom">BOOKING / 外国語</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- inquiry-btnGroup -->
+    <section class="inquiry-btnGroup">
+      <button><a href="#none">투어 문의</a></button>
+      <button><a href="#none">티켓 문의</a></button>
+    </section>
+    <div class="footer-include footer-include-hall footer-include-reservation"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script/sub-reservation.js"></script>
+  <script src="script/sub-reservation-calendar.js"></script>
+</body>
+
+</html>

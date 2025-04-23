@@ -1,0 +1,146 @@
+[
+  {
+    "id": "0",
+    "badge": "단독판매",
+    "openDate": "11.18(월) 11:00",
+    "title": "뮤지컬 〈종의 기원〉",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open01.gif",
+    "alt": "뮤지컬 〈종의 기원〉"
+  },
+  {
+    "id": "1",
+    "badge": "단독판매",
+    "openDate": "11.18(월) 11:00",
+    "title": "뮤지컬 〈드라이플라워〉",
+    "method": "추가티켓오픈",
+    "poster": "img/main-img/ticket-open02.gif",
+    "alt": "뮤지컬 〈드라이 플라워〉 추가오픈"
+  },
+  {
+    "id": "2",
+    "badge": "단독판매",
+    "openDate": "11.18(월) 15:00",
+    "title": "HR콜렉션라이브 2024 <br> 메리 앤드 해피",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open03.jpeg",
+    "alt": "HR콜렉션라이브 2024 메리 앤드 해피"
+  },
+  {
+    "id": "3",
+    "badge": "좌석우위",
+    "openDate": "11.18(월) 15:00",
+    "title": "［피크닉#9] 뮤지컬 〈테일러〉",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open04.gif",
+    "alt": "［피크닉#9] 뮤지컬 〈테일러〉"
+  },
+  {
+    "id": "4",
+    "badge": "단독판매",
+    "openDate": "11.18(월) 20:00",
+    "title": " 소수빈 연말 콘서트",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open05.gif",
+    "alt": "소수빈 연말 콘서트"
+  },
+  {
+    "id": "5",
+    "badge": "단독판매",
+    "openDate": "11.18(월) 16:00",
+    "title": "뮤지컬 〈여신님이 보고 계셔〉<br> 오프닝 포토콜",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open06.gif",
+    "alt": "뮤지컬 〈여신님이 보고 계셔〉"
+  },
+  {
+    "id": "6",
+    "badge": "좌석우위",
+    "openDate": "11.19(화) 11:00",
+    "title": "뮤지컬 〈사랑의 하츄핑〉",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open07.jpg",
+    "alt": "뮤지컬 〈사랑의 하츄핑〉"
+  },
+  {
+    "id": "7",
+    "badge": "단독판매",
+    "openDate": "11.20(수) 14:00",
+    "title": "산울림 편지콘서트<br>〈쇼팽, 블루노트〉",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open08.gif",
+    "alt": "산울림 편지콘서트 〈쇼팽, 블루노트〉"
+  },
+  {
+    "id": "8",
+    "badge": "좌석우위",
+    "openDate": "11.20(수) 20:00",
+    "title": " 임영웅 리사이틀 [RE:CITAL]",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open09.jpg",
+    "alt": "임영웅 리사이틀 [RE:CITAL] "
+  },
+  {
+    "id": "9",
+    "badge": "단독판매",
+    "openDate": "11.22(금) 20:00",
+    "title": "2024 Apink 7th Concert <br>〈PINK CHRISTMAS〉 ",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open10.jpg",
+    "alt": "2024 Apink 7th Concert 〈PINK CHRISTMAS〉"
+  },
+  {
+    "id": "10",
+    "badge": "좌석우위",
+    "openDate": "11.22(금) 12:00",
+    "title": "러셀 피터스 스탠드업 <br> 라이브 코미디쇼",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open11.gif",
+    "alt": "러셀 피터스 스탠드업 라이브 코미디쇼"
+  },
+  {
+    "id": "11",
+    "badge": "좌석우위",
+    "openDate": "11.22(금) 15:00",
+    "title": "2024-25 린 전국투어 <br> 콘서트 “Queen of Serenade” - 부산",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open12.gif",
+    "alt": "2024-25 린 전국투어 콘서트 “Queen of Serenade” - 부산"
+  },
+  {
+    "id": "12",
+    "badge": "단독판매",
+    "openDate": "11.22(금) 15:00",
+    "title": "연극 〈뜨거운 여름〉 : 〉<br> 공연배달서비스 간다",
+    "method": "추가티켓오픈",
+    "poster": "img/main-img/ticket-open13.gif",
+    "alt": "연극 〈뜨거운 여름〉"
+  },
+  {
+    "id": "13",
+    "badge": "단독판매",
+    "openDate": "11.22(금) 15:00",
+    "title": " 연극 〈테베랜드〉",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open14.gif",
+    "alt": "연극 〈테베랜드〉"
+  },
+  {
+    "id": "14",
+    "badge": "단독판매",
+    "openDate": "11.22(금) 16:00",
+    "title": "두번째달 단독 콘서트 <br> [내 인생의 BGM]",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open15.gif",
+    "alt": "두번째달 단독 콘서트 [내 인생의 BGM]"
+  },
+  {
+    "id": "15",
+    "badge": "단독판매",
+    "openDate": "11.26(화) 20:00",
+    "title": "2am 콘서트 〈2am is coming to town〉 - 이천",
+    "method": "일반예매",
+    "poster": "img/main-img/ticket-open16.gif",
+    "alt": "2am 콘서트 〈2am is coming to town〉 - 이천"
+  }
+]

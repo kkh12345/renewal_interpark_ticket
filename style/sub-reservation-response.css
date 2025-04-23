@@ -1,0 +1,357 @@
+@media screen and (max-width: 1200px) {
+  .reservation-main-inner {
+    width: 100%;
+    padding: 65px 60px 0;
+  }
+
+  .reservation-main-right {
+    display: none;
+  }
+
+  .reservation-main-left {
+    width: 100%;
+  }
+
+  section.play-info-area>h1 {
+    font-size: 28px;
+  }
+
+  .review-input-box textarea,
+  .expectations-input-box textarea {
+    height: 150px;
+  }
+
+  /* popup */
+  .sub-popup {
+    width: 70%;
+  }
+
+  /* res-calendar 반응형 달력 */
+  .res-calendar thead {
+    background-color: #f6f6f6;
+  }
+
+  .res-calendar-container {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .res-calendar {
+    width: 100%;
+
+    display: block;
+    position: relative;
+  }
+
+  .res-calendar-wrap {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .res-calendar-wrap>div:nth-of-type(1) {
+    width: 60%;
+    padding: 25px 30px 30px;
+  }
+
+  /* 캘린더 (왼쪽 영역) */
+  .calender {
+    width: 100%;
+  }
+
+  .res-date {
+    margin-bottom: 25px;
+  }
+
+  .res-calendar-logo {
+    position: absolute;
+    bottom: 35px;
+    right: 45px;
+  }
+
+  .res-calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .res-calendar-header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  #res-calendar-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .res-calendar-container th {
+    text-align: center;
+    font-size: 14px;
+
+    padding: 8px 0;
+  }
+
+  .res-mon {
+    border-radius: 50px 0 0 50px;
+  }
+
+  .res-satur {
+    border-radius: 0px 50px 50px 0;
+  }
+
+  .res-calendar-container td {
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .res-calendar-container td {
+    padding: 5px 0;
+    cursor: pointer;
+  }
+
+  .res-calendar-container td:hover span {
+    background-color: var(--lightgray);
+  }
+
+  .res-calendar-container td span {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+  /* 캘린더 (오른쪽 영역) */
+  #res-selected-date {
+    width: 40%;
+    padding: 25px 30px 30px;
+    border-left: 1px solid #ddd;
+    position: relative;
+  }
+
+  #res-selected-date .round {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 0;
+  }
+
+  #res-selected-date>p {
+    font-size: 14px;
+    color: var(--silver);
+  }
+
+  .res-calender-time {
+    line-height: 50px;
+    text-align: center;
+    background: none;
+    border: 1px solid var(--purple);
+    border-radius: var(--border-radius5);
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: var(--purple);
+    cursor: pointer;
+  }
+
+  #res-selected-date p {
+    margin: 10px 0;
+  }
+
+  .res-reserve-btn {
+    text-align: end;
+    margin-top: 25px;
+    margin-bottom: 120px;
+  }
+
+  .res-reserve-btn-top {
+    width: 40%;
+
+    padding: 15px;
+    border: 2px solid var(--purple);
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: var(--purple);
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* popup */
+  .sub-popup {
+    width: 90%;
+  }
+
+  .reservation-main-inner {
+    padding: 65px 40px 0;
+  }
+
+  section.play-info-area .play-info-flex {
+    margin-bottom: 30px;
+  }
+
+  section.play-info-area .play-info-left,
+  section.play-info-area .play-info-right {
+    width: 50%;
+  }
+
+  section.play-info-area .play-info-right>li.age {
+    margin-bottom: 0;
+  }
+
+  section.play-info-area .play-info-right>li {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section.play-info-area .play-info-left {
+    margin-right: 7%;
+    border-radius: var(--border-radius5);
+  }
+
+  section.play-info-area .boon.boon-pc,
+  section.play-info-area .price.price-pc {
+    display: none;
+  }
+
+  section.play-info-area .boon.boon-responsive,
+  section.play-info-area .price.price-responsive {
+    font-size: 20px;
+  }
+
+  section.play-info-area .boon.boon-responsive>b,
+  section.play-info-area .price.price-responsive>b {
+    display: inline-block;
+    margin-bottom: 10px;
+    min-width: 80px;
+  }
+
+  section.play-info-area .price.price-responsive {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  section.play-info-area .boon.boon-responsive {
+    display: flex;
+  }
+
+  .play-tap-content01>.txt {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .play-tap-content01>.imgWrap {
+    width: 100%;
+    margin: 65px auto 0;
+  }
+
+  /* inquiry-btnGroup */
+  .sub-reservation-container .inquiry-btnGroup {
+    padding: 0 40px;
+    margin-top: 120px;
+  }
+
+  .sub-reservation-container .footer-include {
+    margin-top: 0;
+    border-top: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  /* popup */
+  .sub-popup {
+    height: 500px;
+  }
+
+  .sub-popup-bottom {
+    gap: 20px;
+  }
+
+  .sub-popup-bottom p {
+    font-size: 12px;
+    line-height: 1.1;
+  }
+
+  .reservation-main-inner {
+    padding: 65px 20px 0;
+  }
+
+  section.play-info-area {
+    padding-bottom: 80px;
+  }
+
+  section.play-info-area .interest .heart {
+    width: 16px;
+    height: 14px;
+  }
+
+  section.play-info-area .interest {
+    font-size: 14px;
+  }
+
+  section.play-info-area .play-info-right {
+    font-size: 16px;
+  }
+
+  section.play-info-area .play-info-flex {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  section.play-info-area .play-info-left,
+  section.play-info-area .play-info-right {
+    width: 100%;
+  }
+
+  section.play-info-area .boon.boon-responsive,
+  section.play-info-area .price.price-responsive {
+    font-size: 16px;
+  }
+
+  section.play-info-area .play-info-right>li {
+    flex-direction: row;
+  }
+
+  section.play-info-area .play-info-left img {
+    border-radius: var(--border-radius10);
+  }
+
+  .sub-reservation-container .inquiry-btnGroup {
+    padding: 0 20px;
+    margin-bottom: 0;
+    margin-top: 75px;
+  }
+
+  /* res-calender */
+  .res-calendar-wrap {
+    flex-direction: column;
+  }
+
+  .res-calendar-wrap>div:nth-of-type(1) {
+    width: 100%;
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  #res-selected-date {
+    width: 100%;
+  }
+
+  .res-reserve-btn-top {
+    width: 100%;
+  }
+}
