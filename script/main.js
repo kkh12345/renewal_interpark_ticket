@@ -467,9 +467,6 @@ function initLoginSetting() {
       loginBoxTop.style.display = 'none';
       loginForm.style.display = 'none';
       loginSuccessBox.style.display = 'block';
-      loginBoxTop.style.display = 'none';
-      loginForm.style.display = 'none';
-      loginSuccessBox.style.display = 'block';
       recentReservationH5.innerText = '최근예매내역';
 
       insertRecentReservation();

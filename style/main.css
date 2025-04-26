@@ -1113,8 +1113,7 @@ main {
 
 /* section login-area */
 .login-success-box,
-.login-area .login-box-top,
-.login-box form {
+.login-area .login-box-top {
   display: none;
 }
 
